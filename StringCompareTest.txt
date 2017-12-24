@@ -1,0 +1,12 @@
+public class StringCompareTest {
+	public static void main(String args[]){
+		String stra = "abc";
+		String strb = "abc";
+		String strc = "def";
+		
+		String strd = new String("abc");
+		System.out.println(stra == strb);
+		System.out.println(strc == strb);
+		System.out.println(stra == strd);
+	}
+}
