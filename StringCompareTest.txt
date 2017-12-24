@@ -9,4 +9,5 @@ public class StringCompareTest {
 		System.out.println(strc == strb);
 		System.out.println(stra == strd);
 	}
+
 }
